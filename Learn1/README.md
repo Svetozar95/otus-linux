@@ -17,13 +17,13 @@
   config.vm.box = "Svetozar/centos-7-5"
   config.vm.box_version = "1.0"
 ```
-Проверку можно осуществить через загрузку [Vagrant File](https://www.google.com)
+Проверку можно осуществить через загрузку [Vagrant File](https://github.com/Svetozar95/otus-linux/blob/master/Learn1/kernel-auto-update/Vagrantfile)
 ```
 ## Создадим тестовую директорию перейдем в неё
 mkdir test; cd test;
 
 ## Скачаем готовый Vagrant File 
-wget ..
+wget https://github.com/Svetozar95/otus-linux/blob/master/Learn1/kernel-auto-update/Vagrantfile
 
 ## Запустим vagrant
 vagrant up
