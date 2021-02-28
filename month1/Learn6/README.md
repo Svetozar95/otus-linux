@@ -14,7 +14,9 @@
 Собирался nginx 1.18 с модулем nginx-module-vts
  
 
-``` cat >> /etc/yum.repos.d/otus.repo << EOF
+``` 
+
+cat >> /etc/yum.repos.d/otus.repo << EOF
 [otus]
 name=otus-linux
 baseurl=http://rpm.linuxporn.ru/
